@@ -5,9 +5,10 @@
          fetch="https://android.googlesource.com/"
          review="https://android-review.googlesource.com/" />
 		   
-  <remote name="yu"
-         fetch="https://github.com/YUTeleventures/"
+    <remote name="yu"
+         fetch=".."
          sync-c="true"
+	     review="codereview.yuplaygod.com/"
          revision="yu-mm-6.0.1"
          sync-j="4" />
 		 
@@ -26,103 +27,103 @@
          sync-j="4" />
   
   <!-- BEGIN YUOS REPOS-->
-  <project path="build" name="platform_build" groups="pdk" remote="yu" >
+  <project path="build" name="YUTeleventures/platform_build" groups="pdk" remote="yu" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="platform_art" groups="pdk" remote="yu" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="yu" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="yu" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="yu" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="pdk" remote="yu" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" groups="pdk" remote="yu" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" groups="pdk" remote="yu" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" groups="pdk" remote="yu" />
-  <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="yu" />
-  <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="yu" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="yu" />
-  <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="yu" />
-  <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="yu" />
-  <project path="external/exfat" name="external_exfat" groups="pdk" remote="yu" />
-  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="yu" />
-  <project path="external/ffmpeg" name="external_ffmpeg" remote="yu" />
-  <project path="external/flac" name="external_flac" groups="pdk" remote="yu" />
-  <project path="external/fuse" name="external_fuse" groups="pdk" remote="yu" />
-  <project path="external/google" name="external_google" groups="pdk" remote="yu" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="yu" />
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="yu" />
-  <project path="external/mm-dash" name="external_mm-dash" remote="yu" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" groups="pdk" remote="yu" />
-  <project path="external/okhttp" name="external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="yu" />
-  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="yu" />
-  <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="yu" />
-  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="yu" />
-  <project path="external/tinyalsa" name="external_tinyalsa" groups="pdk" remote="yu" />
-  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="yu" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="yu" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/opt/chips" name="frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="yu" />
-  <project path="hardware/akm" name="hardware_akm" remote="yu" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="qcom,qcom_fm" remote="yu" />
-  <project path="hardware/invensense" name="hardware_invensense" groups="invensense" remote="yu" />
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="yu" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="yu" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="yu" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="yu" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="yu-mm-6.0.1-caf" remote="yu" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="yu" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="yu" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="yu" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="yu" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" groups="qcom" remote="yu" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom" remote="yu" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="yu" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" revision="yu-mm-6.0.1-caf" remote="yu" />
-  <project path="hardware/ril" name="hardware_ril" remote="yu" />
-  <project path="hardware/ril-caf" name="hardware_ril" revision="yu-mm-6.0.1-caf" remote="yu" />
-  <project path="libcore" name="platform_libcore" groups="pdk" remote="yu" />
-  <project path="libnativehelper" name="platform_libnativehelper" groups="pdk" remote="yu" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="yu" />
-  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="yu" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/Music" name="packages_apps_Music" remote="yu" /> 
-  <project path="packages/apps/Phone" name="packages_apps_Phone" groups="pdk-fs" remote="yu" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="yu" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="yu" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs" remote="yu" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" groups="pdk-cw-fs,pdk-fs" remote="yu" />  
-  <project path="system/bt" name="system_bt" groups="pdk" remote="yu" />
-  <project path="system/core" name="system_core" groups="pdk" remote="yu" />
-  <project path="system/extras" name="system_extras" groups="pdk" remote="yu" />
-  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="yu" />
-  <project path="system/media" name="system_media" groups="pdk" remote="yu" />
-  <project path="system/netd" name="system_netd" groups="pdk" remote="yu" />
-  <project path="system/qcom" name="system_qcom" groups="qcom" remote="yu" />
-  <project path="system/security" name="system_security" groups="pdk" remote="yu" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="yu" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="yu" />
-  <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="yu" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="yu" />
-  <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="yu" />
-  <project path="vendor/yuos" name="vendor_yuos" groups="pdk" remote="yu" />
+  <project path="art" name="YUTeleventures/platform_art" groups="pdk" remote="yu" />
+  <project path="bionic" name="YUTeleventures/platform_bionic" groups="pdk" remote="yu" />
+  <project path="bootable/recovery" name="YUTeleventures/bootable_recovery" groups="pdk" remote="yu" />
+  <project path="device/qcom/common" name="YUTeleventures/device_qcom_common" remote="yu" />
+  <project path="device/qcom/sepolicy" name="YUTeleventures/device_qcom_sepolicy" groups="pdk" remote="yu" />
+  <project path="external/ant-wireless/ant_native" name="YUTeleventures/external_ant-wireless_ant_native" groups="pdk" remote="yu" />
+  <project path="external/ant-wireless/ant_service" name="YUTeleventures/external_ant-wireless_ant_service" groups="pdk" remote="yu" />
+  <project path="external/ant-wireless/antradio-library" name="YUTeleventures/external_ant-wireless_antradio-library" groups="pdk" remote="yu" />
+  <project path="external/apache-http" name="YUTeleventures/external_apache-http" groups="pdk" remote="yu" />
+  <project path="external/boringssl" name="YUTeleventures/external_boringssl" groups="pdk" remote="yu" />
+  <project path="external/chromium-webview" name="YUTeleventures/external_chromium-webview" groups="pdk" remote="yu" />
+  <project path="external/connectivity" name="YUTeleventures/external_connectivity" groups="pdk" remote="yu" />
+  <project path="external/dhcpcd" name="YUTeleventures/external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="external/e2fsprogs" name="YUTeleventures/external_e2fsprogs" groups="pdk" remote="yu" />
+  <project path="external/exfat" name="YUTeleventures/external_exfat" groups="pdk" remote="yu" />
+  <project path="external/f2fs-tools" name="YUTeleventures/external_f2fs-tools" groups="pdk" remote="yu" />
+  <project path="external/ffmpeg" name="YUTeleventures/external_ffmpeg" remote="yu" />
+  <project path="external/flac" name="YUTeleventures/external_flac" groups="pdk" remote="yu" />
+  <project path="external/fuse" name="YUTeleventures/external_fuse" groups="pdk" remote="yu" />
+  <project path="external/google" name="YUTeleventures/external_google" groups="pdk" remote="yu" />
+  <project path="external/libnfnetlink" name="YUTeleventures/external_libnfnetlink" remote="yu" />
+  <project path="external/libnetfilter_conntrack" name="YUTeleventures/external_libnetfilter_conntrack" remote="yu" />
+  <project path="external/mm-dash" name="YUTeleventures/external_mm-dash" remote="yu" />
+  <project path="external/ntfs-3g" name="YUTeleventures/external_ntfs-3g" groups="pdk" remote="yu" />
+  <project path="external/okhttp" name="YUTeleventures/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="external/sepolicy" name="YUTeleventures/external_sepolicy" groups="pdk" remote="yu" />
+  <project path="external/skia" name="YUTeleventures/external_skia" groups="pdk,qcom_msm8x26" remote="yu" />
+  <project path="external/sqlite" name="YUTeleventures/external_sqlite" groups="pdk" remote="yu" />
+  <project path="external/stagefright-plugins" name="YUTeleventures/external_stagefright-plugins" remote="yu" />
+  <project path="external/tinyalsa" name="YUTeleventures/external_tinyalsa" groups="pdk" remote="yu" />
+  <project path="external/tinycompress" name="YUTeleventures/external_tinycompress" groups="pdk" remote="yu" />
+  <project path="external/wpa_supplicant_8" name="YUTeleventures/external_wpa_supplicant_8" groups="pdk" remote="yu" />
+  <project path="frameworks/av" name="YUTeleventures/frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/base" name="YUTeleventures/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/native" name="YUTeleventures/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/opt/net/ims" name="YUTeleventures/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/opt/chips" name="YUTeleventures/frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/opt/telephony" name="YUTeleventures/frameworks_opt_telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/opt/net/wifi" name="YUTeleventures/frameworks_opt_net_wifi" groups="pdk" remote="yu" />
+  <project path="hardware/akm" name="YUTeleventures/hardware_akm" remote="yu" />
+  <project path="hardware/qcom/fm" name="YUTeleventures/hardware_qcom_fm" groups="qcom,qcom_fm" remote="yu" />
+  <project path="hardware/invensense" name="YUTeleventures/hardware_invensense" groups="invensense" remote="yu" />
+  <project path="hardware/libhardware" name="YUTeleventures/hardware_libhardware" groups="pdk" remote="yu" />
+  <project path="hardware/libhardware_legacy" name="YUTeleventures/hardware_libhardware_legacy" groups="pdk" remote="yu" />
+  <project path="hardware/qcom/audio/default" name="YUTeleventures/hardware_qcom_audio" groups="qcom,qcom_audio" remote="yu" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="YUTeleventures/hardware_qcom_audio" groups="qcom,qcom_audio" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/bt" name="YUTeleventures/hardware_qcom_bt" groups="qcom" remote="yu" />
+  <project path="hardware/qcom/bt-caf" name="YUTeleventures/hardware_qcom_bt" groups="qcom" revision="yu-mm-6.0.1-caf" remote="yu" />
+  <project path="hardware/qcom/camera" name="YUTeleventures/hardware_qcom_camera" groups="qcom" remote="yu" />
+  <project path="hardware/qcom/display" name="YUTeleventures/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="yu" />
+  <project path="hardware/qcom/display-caf/msm8916" name="YUTeleventures/hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/gps" name="YUTeleventures/hardware_qcom_gps" groups="qcom,qcom_gps" remote="yu" />
+  <project path="hardware/qcom/keymaster" name="YUTeleventures/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="yu" />
+  <project path="hardware/qcom/media/default" name="YUTeleventures/hardware_qcom_media" groups="qcom" remote="yu" />
+  <project path="hardware/qcom/media-caf/msm8916" name="YUTeleventures/hardware_qcom_media" groups="qcom" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/power" name="YUTeleventures/hardware_qcom_power" groups="qcom" remote="yu" />
+  <project path="hardware/qcom/wlan" name="YUTeleventures/hardware_qcom_wlan" groups="qcom_wlan" remote="yu" />
+  <project path="hardware/qcom/wlan-caf" name="YUTeleventures/hardware_qcom_wlan" groups="qcom_wlan" revision="yu-mm-6.0.1-caf" remote="yu" />
+  <project path="hardware/ril" name="YUTeleventures/hardware_ril" remote="yu" />
+  <project path="hardware/ril-caf" name="YUTeleventures/hardware_ril" revision="yu-mm-6.0.1-caf" remote="yu" />
+  <project path="libcore" name="YUTeleventures/platform_libcore" groups="pdk" remote="yu" />
+  <project path="libnativehelper" name="YUTeleventures/platform_libnativehelper" groups="pdk" remote="yu" />
+  <project path="packages/apps/Bluetooth" name="YUTeleventures/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="yu" />
+  <project path="packages/apps/BluetoothExt" name="YUTeleventures/packages_apps_BluetoothExt" remote="yu" />
+  <project path="packages/apps/Contacts" name="YUTeleventures/packages_apps_Contacts" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/ContactsCommon" name="YUTeleventures/packages_apps_ContactsCommon" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/Dialer" name="YUTeleventures/packages_apps_Dialer" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/Exchange" name="YUTeleventures/packages_apps_Exchange" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/FMRadio" name="YUTeleventures/packages_apps_FMRadio" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/InCallUI" name="YUTeleventures/packages_apps_InCallUI" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/Music" name="YUTeleventures/packages_apps_Music" remote="yu" /> 
+  <project path="packages/apps/Phone" name="YUTeleventures/packages_apps_Phone" groups="pdk-fs" remote="yu" />
+  <project path="packages/apps/PhoneCommon" name="YUTeleventures/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="packages/apps/Settings" name="YUTeleventures/packages_apps_Settings" groups="pdk-fs" remote="yu" />
+  <project path="packages/providers/ContactsProvider" name="YUTeleventures/packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="yu" />
+  <project path="packages/providers/MediaProvider" name="YUTeleventures/packages_providers_MediaProvider" groups="pdk-cw-fs" remote="yu" />
+  <project path="packages/providers/TelephonyProvider" name="YUTeleventures/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="packages/services/Telephony" name="YUTeleventures/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="packages/services/Telecomm" name="YUTeleventures/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="packages/apps/SnapdragonCamera" name="YUTeleventures/packages_apps_SnapdragonCamera" groups="pdk-cw-fs,pdk-fs" remote="yu" />  
+  <project path="system/bt" name="YUTeleventures/system_bt" groups="pdk" remote="yu" />
+  <project path="system/core" name="YUTeleventures/system_core" groups="pdk" remote="yu" />
+  <project path="system/extras" name="YUTeleventures/system_extras" groups="pdk" remote="yu" />
+  <project path="system/keymaster" name="YUTeleventures/system_keymaster" groups="pdk" remote="yu" />
+  <project path="system/media" name="YUTeleventures/system_media" groups="pdk" remote="yu" />
+  <project path="system/netd" name="YUTeleventures/system_netd" groups="pdk" remote="yu" />
+  <project path="system/qcom" name="YUTeleventures/system_qcom" groups="qcom" remote="yu" />
+  <project path="system/security" name="YUTeleventures/system_security" groups="pdk" remote="yu" />
+  <project path="system/vold" name="YUTeleventures/system_vold" groups="pdk" remote="yu" />
+  <project path="vendor/qcom/opensource/dataservices" name="YUTeleventures/vendor_qcom_opensource_dataservices" remote="yu" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="YUTeleventures/vendor_qcom_opensource_display-frameworks" remote="yu" />
+  <project path="vendor/qcom/opensource/dpm" name="YUTeleventures/vendor_qcom_opensource_dpm" remote="yu" />
+  <project path="vendor/qcom/opensource/time-services" name="YUTeleventures/vendor_qcom_opensource_time-services" remote="yu" />
+  <project path="vendor/yuos" name="YUTeleventures/vendor_yuos" groups="pdk" remote="yu" />
   <!-- END YUOS REPOS-->
 
   <!-- BEGIN AOSP REPOS-->
