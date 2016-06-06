@@ -76,15 +76,18 @@
   <project path="hardware/libhardware_legacy" name="YUTeleventures/hardware_libhardware_legacy" groups="pdk" remote="yu" />
   <project path="hardware/qcom/audio/default" name="YUTeleventures/hardware_qcom_audio" groups="qcom,qcom_audio" remote="yu" />
   <project path="hardware/qcom/audio-caf/msm8916" name="YUTeleventures/hardware_qcom_audio" groups="qcom,qcom_audio" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="YUTeleventures/hardware_qcom_audio" groups="qcom,qcom_audio" revision="yu-mm-6.0.1-caf-8994" remote="yu" />
   <project path="hardware/qcom/bt" name="YUTeleventures/hardware_qcom_bt" groups="qcom" remote="yu" />
   <project path="hardware/qcom/bt-caf" name="YUTeleventures/hardware_qcom_bt" groups="qcom" revision="yu-mm-6.0.1-caf" remote="yu" />
   <project path="hardware/qcom/camera" name="YUTeleventures/hardware_qcom_camera" groups="qcom" remote="yu" />
   <project path="hardware/qcom/display" name="YUTeleventures/hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="yu" />
   <project path="hardware/qcom/display-caf/msm8916" name="YUTeleventures/hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/display-caf/msm8994" name="YUTeleventures/hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="yu-mm-6.0.1-caf-8994" remote="yu" />
   <project path="hardware/qcom/gps" name="YUTeleventures/hardware_qcom_gps" groups="qcom,qcom_gps" remote="yu" />
   <project path="hardware/qcom/keymaster" name="YUTeleventures/hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="yu" />
   <project path="hardware/qcom/media/default" name="YUTeleventures/hardware_qcom_media" groups="qcom" remote="yu" />
   <project path="hardware/qcom/media-caf/msm8916" name="YUTeleventures/hardware_qcom_media" groups="qcom" revision="yu-mm-6.0.1-caf-8916" remote="yu" />
+  <project path="hardware/qcom/media-caf/msm8994" name="YUTeleventures/hardware_qcom_media" groups="qcom" revision="yu-mm-6.0.1-caf-8994" remote="yu" />
   <project path="hardware/qcom/power" name="YUTeleventures/hardware_qcom_power" groups="qcom" remote="yu" />
   <project path="hardware/qcom/wlan" name="YUTeleventures/hardware_qcom_wlan" groups="qcom_wlan" remote="yu" />
   <project path="hardware/qcom/wlan-caf" name="YUTeleventures/hardware_qcom_wlan" groups="qcom_wlan" revision="yu-mm-6.0.1-caf" remote="yu" />
