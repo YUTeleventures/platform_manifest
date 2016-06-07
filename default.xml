@@ -513,6 +513,7 @@
   <project path="device/yu/lettuce" name="YUTeleventures/device_yu_lettuce" groups="pdk" remote="yu" />
   <project path="device/cyanogen/msm8916-common" name="YUTeleventures/device_cyanogen_msm8916-common" groups="pdk" remote="yu" />
   <project path="device/yu/jalebi" name="YUTeleventures/device_yu_jalebi" groups="pdk" remote="yu" />
+  <project path="device/yu/sambar" name="YUTeleventures/device_yu_sambar" groups="pdk" remote="yu" />
   <!-- END YU DEVICE REPO-->
   
 </manifest>
