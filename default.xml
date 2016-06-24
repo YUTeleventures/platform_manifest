@@ -54,7 +54,6 @@
   <project path="external/okhttp" name="YUTeleventures/external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="external/sepolicy" name="YUTeleventures/external_sepolicy" groups="pdk" remote="yu" />
   <project path="external/skia" name="YUTeleventures/external_skia" groups="pdk,qcom_msm8x26" remote="yu" />
-  <project path="external/sqlite" name="YUTeleventures/external_sqlite" groups="pdk" remote="yu" />
   <project path="external/stagefright-plugins" name="YUTeleventures/external_stagefright-plugins" remote="yu" />
   <project path="external/tinyalsa" name="YUTeleventures/external_tinyalsa" groups="pdk" remote="yu" />
   <project path="external/tinycompress" name="YUTeleventures/external_tinycompress" groups="pdk" remote="yu" />
@@ -325,6 +324,7 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
