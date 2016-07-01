@@ -93,6 +93,7 @@
   <project path="libnativehelper" name="YUTeleventures/platform_libnativehelper" groups="pdk" remote="yu" />
   <project path="packages/apps/Bluetooth" name="YUTeleventures/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="yu" />
   <project path="packages/apps/BluetoothExt" name="YUTeleventures/packages_apps_BluetoothExt" remote="yu" />
+  <project path="packages/apps/Browser" name="YUTeleventures/packages_apps_Browser" groups="pdk-fs" remote="yu" />
   <project path="packages/apps/Calendar" name="YUTeleventures/packages_apps_Calendar" groups="pdk-fs" remote="yu"/>
   <project path="packages/apps/Contacts" name="YUTeleventures/packages_apps_Contacts" groups="pdk-fs" remote="yu" />
   <project path="packages/apps/ContactsCommon" name="YUTeleventures/packages_apps_ContactsCommon" groups="pdk-fs" remote="yu" />
@@ -402,7 +403,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
