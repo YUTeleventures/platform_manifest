@@ -64,6 +64,7 @@
   <project path="frameworks/opt/net/ims" name="YUTeleventures/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="frameworks/opt/chips" name="YUTeleventures/frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="frameworks/opt/telephony" name="YUTeleventures/frameworks_opt_telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
+  <project path="frameworks/opt/timezonepicker" name="YUTeleventures/frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="frameworks/opt/net/wifi" name="YUTeleventures/frameworks_opt_net_wifi" groups="pdk" remote="yu" />
   <project path="hardware/akm" name="YUTeleventures/hardware_akm" remote="yu" />
   <project path="hardware/qcom/fm" name="YUTeleventures/hardware_qcom_fm" groups="qcom,qcom_fm" remote="yu" />
@@ -374,7 +375,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />  
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
