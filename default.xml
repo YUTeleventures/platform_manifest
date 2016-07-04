@@ -114,8 +114,7 @@
   <project path="packages/providers/MediaProvider" name="YUTeleventures/packages_providers_MediaProvider" groups="pdk-cw-fs" remote="yu" />
   <project path="packages/providers/TelephonyProvider" name="YUTeleventures/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="packages/services/Telephony" name="YUTeleventures/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/services/Telecomm" name="YUTeleventures/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu" />
-  <project path="packages/apps/SnapdragonCamera" name="YUTeleventures/packages_apps_SnapdragonCamera" groups="pdk-cw-fs,pdk-fs" remote="yu" />  
+  <project path="packages/services/Telecomm" name="YUTeleventures/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="yu" />  
   <project path="system/bt" name="YUTeleventures/system_bt" groups="pdk" remote="yu" />
   <project path="system/core" name="YUTeleventures/system_core" groups="pdk" remote="yu" />
   <project path="system/extras" name="YUTeleventures/system_extras" groups="pdk" remote="yu" />
