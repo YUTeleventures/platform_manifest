@@ -110,6 +110,7 @@
   <project path="packages/apps/PhoneCommon" name="YUTeleventures/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="packages/apps/Settings" name="YUTeleventures/packages_apps_Settings" groups="pdk-fs" remote="yu" />
   <project path="packages/providers/ContactsProvider" name="YUTeleventures/packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="yu" />
+  <project path="packages/screensavers/PhotoTable" name="YUTeleventures/packages_screensavers_PhotoTable" groups="pdk-fs" remote="yu" />
   <project path="packages/providers/MediaProvider" name="YUTeleventures/packages_providers_MediaProvider" groups="pdk-cw-fs" remote="yu" />
   <project path="packages/providers/TelephonyProvider" name="YUTeleventures/packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="yu" />
   <project path="packages/services/Telephony" name="YUTeleventures/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="yu" />
@@ -443,7 +444,6 @@
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
